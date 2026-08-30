@@ -1,0 +1,232 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+
+body{
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#F8F8F8;
+
+    font-family:'Poppins',sans-serif;
+
+    color:#222;
+
+}
+
+
+
+
+.login-card{
+
+
+    width:380px;
+
+    background:white;
+
+    padding:45px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+
+
+}
+
+
+
+
+h1{
+
+
+    font-family:'Playfair Display',serif;
+
+    font-size:38px;
+
+    color:#A67C00;
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+h2{
+
+
+    font-family:'Playfair Display',serif;
+
+    margin-bottom:30px;
+
+    color:#222;
+
+
+}
+
+
+
+
+.input-box{
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+input{
+
+
+    width:100%;
+
+    padding:14px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    font-family:'Poppins';
+
+    font-size:15px;
+
+
+}
+
+
+
+input:focus{
+
+
+    outline:none;
+
+    border-color:#A67C00;
+
+
+}
+
+
+
+
+.password-box{
+
+
+    position:relative;
+
+
+}
+
+
+
+
+.password-box input{
+
+
+    padding-right:45px;
+
+
+}
+
+
+
+
+#eye{
+
+
+    position:absolute;
+
+    right:15px;
+
+    top:14px;
+
+    cursor:pointer;
+
+    color:#777;
+
+    font-size:18px;
+
+
+}
+
+
+
+
+#eye:hover{
+
+
+    color:#A67C00;
+
+
+}
+
+
+
+
+
+button{
+
+
+    width:100%;
+
+    padding:14px;
+
+    background:#A67C00;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    font-family:'Poppins';
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+
+}
+
+
+
+
+button:hover{
+
+
+    background:#8C6700;
+
+
+}
+
+
+
+
+
+#message{
+
+
+    margin-top:20px;
+
+    font-weight:600;
+
+
+}
