@@ -1,33 +1,47 @@
-EcomPulse – E-Commerce Analytics & Management Platform
+# EcomPulse – AI-Powered E-Commerce Platform
 
-EcomPulse is a full-stack e-commerce platform for managing products, orders, customers, inventory, and business analytics through an interactive dashboard.
+EcomPulse is a full-stack e-commerce platform designed to help businesses manage products, orders, customers, and business analytics through a centralized dashboard.
 
-Key Features
-JWT-based user authentication
-Product, order, customer, and inventory management
-Sales and revenue analytics
-AI-powered business insights
-RESTful API integration
-Responsive dashboard
-Tech Stack
+The application provides a responsive user interface, RESTful APIs, JWT-based authentication, CRUD operations, and MongoDB integration.
 
-Frontend: React.js, TypeScript, Vite, HTML5, CSS3
-Backend: Node.js, Express.js, REST API, JWT
-Database: MongoDB
-Tools: Git, GitHub, VS Code
+## Features
 
-Run Locally
-git clone https://github.com/poornima2527/EcomPulse.git
-cd EcomPulse
+- JWT-based authentication
+- Product management
+- Order management
+- Customer management
+- Business analytics dashboard
+- AI-powered business insights
+- RESTful API integration
+- CRUD operations
+- Responsive user interface
 
-Frontend:
+## Tech Stack
 
-cd frontend
-npm install
-npm run dev
+**Frontend**
+- React.js
+- TypeScript
+- Vite
+- HTML5
+- CSS3
 
-Backend:
+**Backend**
+- Node.js
+- Express.js
+- REST APIs
+- JWT
 
-cd backend
-npm install
-npm run dev
+**Database**
+- MongoDB
+
+**Tools**
+- Git
+- GitHub
+- VS Code
+
+## Project Structure
+
+```text
+EcomPulse/
+├── frontend/
+└── backend/
